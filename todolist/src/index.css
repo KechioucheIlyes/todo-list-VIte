@@ -1,0 +1,62 @@
+.title {
+  border: 1px solid black;
+  padding: 20px;
+  font-weight: bolder;
+  font-style: italic;
+  font-size: 30px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: rgb(218, 169, 135);
+  border-radius: 10px;
+  width: fit-content;
+  margin: auto;
+
+
+}
+
+.inpt-input {
+  height: 20px;
+  width: 200px;
+
+}
+
+.btn-input {
+  margin: 5px;
+  padding: 2.9px 10px;
+  background-color: rgb(85, 85, 202);
+  border-radius: 10px;
+  border: transparent;
+  cursor: pointer;
+  animation: transform 1.5s ease;
+  -webkit-animation: transform 1.5s ease;
+}
+
+.btn-input:hover {
+  transform: scale(1.1);
+}
+
+.card-container {
+  border: 1px solid black;
+  padding: 20px;
+  margin: auto;
+  width: fit-content;
+  min-width: 300px;
+  border-radius: 20px;
+  margin-top: 20px;
+
+}
+
+.cards {
+  list-style: none;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.inpt-btn-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+}
